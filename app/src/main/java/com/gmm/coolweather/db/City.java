@@ -1,14 +1,16 @@
 package com.gmm.coolweather.db;
 
+import org.litepal.crud.DataSupport;
+
 /**
  * 市
  */
-public class City {
+public class City extends DataSupport {
 
     private int id;
     private String cityName;
     private int cityCode;
-    private int provinceID;
+    private int provinceId;
 
     public int getId() {
         return id;
@@ -34,11 +36,11 @@ public class City {
         this.cityCode = cityCode;
     }
 
-    public int getProvinceID() {
-        return provinceID;
+    public int getProvinceId() {
+        return provinceId;
     }
 
-    public void setProvinceID(int provinceID) {
-        this.provinceID = provinceID;
+    public void setProvinceId(int provinceId) {
+        this.provinceId = provinceId;
     }
 }
