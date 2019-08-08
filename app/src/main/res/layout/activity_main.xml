@@ -8,7 +8,7 @@
 
     <fragment
         android:id="@+id/choose_fragment"
-        android:name="com.gmm.coolweather.ChoosAreaFragment"
+        android:name="com.gmm.coolweather.ChooseAreaFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 
